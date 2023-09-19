@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>AcemFestVibes</title>
+</head>
+
+<body>
+    <!-- <div class="cursor">
+        <div class="cursor-dot"></div>
+    </div> -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about" class="side-nav-link" onclick="closeNav()">About</a>
+        <a href="#events" class="side-nav-link" onclick="closeNav()">Events</a>
+        <a href="#contact" class="side-nav-link" onclick="closeNav()">Contact</a>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><svg height="28" viewBox="0 -960 960 960" width="28">
+            <path fill="white" d="m296-345-56-56 240-240 240 240-56 56-184-184-184 184Z" />
+        </svg></button>
+    <nav class="navbar" id="home">
+        <a href="#"><img src="/icons/logo.png" alt="AcemFestVibes logo" class="logo"></a>
+        <span class="menu-icon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#events" class="nav-link">Events</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <a href="/" class="a-normal nav-cta">
+            <div class="btn">Get Your Tickets Now!</div>
+        </a>
+    </nav>
+    <hr class="thin-line">
+    <section class="hero-section">
+        <span class="htext">CONDUCTED IN ACEM</span>
+        <h1 class="fm-b">Anokha Fest</h1>
+        <h1 class="fm-r">A Cultural Odyssey Awaits You</h1>
+        <img src="/icons/hero-img.png" alt="hero image" class="hero-img">
+        <img src="/icons/arrowCurve.png" alt="arrow curve" class="arrow-curve">
+        <a href="/">
+            <div class="btn">Get Your Tickets Now!</div>
+        </a>
+        <div class="scroll-grp">
+            <img src="/icons/arrow.png" alt="arrow down" class="arrow-down">
+            <p class="fs-r">Scroll for more</p>
+        </div>
+    </section>
+    <hr class="thin-line">
+    <!-- about section -->
+    <section class="about-section section" id="about">
+        <h2 class="fm-b">About&nbsp;<span class="fm-r clr-light-black">Anokha Fest</span></h2>
+        <p class="fs-r para">
+            Anokha Fest is not just an event; it's a cultural extravaganza that will transport you to a world of wonder and excitement! 🌍✨ Immerse yourself in the heart of diversity as we celebrate the beauty of different cultures coming together in harmony. With a history steeped in tradition and a vision for the future, Anokha Fest has grown to become a beloved annual tradition that unites communities, celebrates heritage, and fosters lasting friendships. 🤝🎶
+            <br><br>
+            Get ready to embark on a journey of discovery through captivating performances, mouthwatering cuisine, and immersive cultural experiences. 🍛🎵 From dance performances that will leave you spellbound to flavors that will tantalize your taste buds, Anokha Fest promises a cultural odyssey like no other. Join us in this celebration of unity, culture, and pure festival joy! 🎊🙌🎈
+        </p>
+    </section>
+    <hr class="thin-line">
+    <!-- events section -->
+    <section class="events-section section" id="events">
+        <h2 class="fm-b">Upcoming&nbsp;<span class="fm-r clr-light-black">Events</span></h2>
+        <div class="cards">
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img8.png" alt="" class="card-img">
+                    <h2 class="card-title">Technical Quiz</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Room 205</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">11 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img3.png" alt="" class="card-img">
+                    <h2 class="card-title">Web Designing</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Room 117</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img7.png" alt="" class="card-img">
+                    <h2 class="card-title">Poster Presentation</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Open Auditorium</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img4.png" alt="" class="card-img">
+                    <h2 class="card-title">Paper Presentation</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">23 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Open Auditorium</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img2.png" alt="" class="card-img">
+                    <h2 class="card-title">Advertisements</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Room 117</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img1.png" alt="" class="card-img">
+                    <h2 class="card-title">Spoof</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Room 117</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img9.png" alt="" class="card-img">
+                    <h2 class="card-title">Chinese Wishper</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Room 117</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#events" class="a-normal">
+                <div class="card"><img src="/icons/img10.png" alt="" class="card-img">
+                    <h2 class="card-title">Photography</h2>
+                    <div class="card-subtitle-grp">
+                        <p class="subtitle-1">22 Sep</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">Room 117</p>
+                        <img src="/icons/dot.png" alt="">
+                        <p class="subtitle-1">10 am</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <p class="fs-r clr-black-200"><span class="clr-theme">*&nbsp;</span>Click on the event card to show more details</p>
+        <a href="/">
+            <div class="btn">Get Your Tickets Now!</div>
+        </a>
+    </section>
+    <hr class="thin-line">
+    <!-- coordinators section -->
+    <section class="coordinators-section section" id="coordinators">
+        <div class="special-div">
+            <h2 class="fm-r">Staff&nbsp;</h2>
+            <span class="fm-b">Coordinators</span>
+        </div>
+        <div class="avatars">
+            <div class="avatar">
+                <img src="/icons/Ellipse 1.png" alt="">
+                <h2 class="avatar-title">Martin Norris</h2>
+                <p class="avatar-subtitle">Cyber Security Analyst</p>
+            </div>
+            <div class="avatar">
+                <img src="/icons/Ellipse 2.png" alt="">
+                <h2 class="avatar-title">Ieuan Hicks</h2>
+                <p class="avatar-subtitle">Web Developer</p>
+            </div>
+            <div class="avatar">
+                <img src="/icons/Ellipse 3.png" alt="">
+                <h2 class="avatar-title">Danyal King</h2>
+                <p class="avatar-subtitle">Data Analyst</p>
+            </div>
+            <div class="avatar">
+                <img src="/icons/Ellipse 4.png" alt="">
+                <h2 class="avatar-title">Oscar Farmer</h2>
+                <p class="avatar-subtitle">AI & ML Specialist</p>
+            </div>
+        </div>
+        <p class="fs-r para">
+            Behind the scenes, a passionate and hardworking team is tirelessly working to make Anokha Fest 2023 a roaring success. Get to know the individuals who are orchestrating the magic and ensuring every event runs smoothly
+        </p>
+    </section>
+    <hr class="thin-line">
+    <!-- contact section -->
+    <section class="contact-section section" id="contact">
+        <h2 class="fm-b">Contact&nbsp;<span class="fm-r clr-light-black">Us</span></h2>
+        <form action="#home" method="post" class="form-body">
+            <input type="text" placeholder="Name" class="input-field" required>
+            <input type="email" placeholder="Email" class="input-field" required>
+            <textarea name="message" id="message" cols="50" rows="13" placeholder="Message" class="input-field input-textarea" required></textarea>
+            <input type="submit" value="Send Message" class="input-field">
+        </form>
+    </section>
+    <hr class="thin-line">
+    <section class="socials-section">
+        <div class="social-links">
+            <a class="a-normal" target="_blank" href="mailto: ace.madanapalle@gmail.com">
+                <div class="social-link">
+                    <img src="/icons/email.png" alt="email icon">
+                    <p>ace.madanapalle@gmail.com</p>
+                </div>
+            </a>
+            <a href="https://instagram.com/acem.mpl" target="_blank" class="a-normal">
+                <div class="social-link">
+                    <img src="/icons/instagram.png" alt="instagram icon">
+                    <p>acem@gmail.com</p>
+                </div>
+            </a>
+            <a href="#" class="a-normal" target="_blank">
+                <div class="social-link">
+                    <img src="/icons/twitter.png" alt="twitter icon" class="twitter-img">
+                    <p>acem@gmail.com</p>
+                </div>
+            </a>
+            <a href="https://www.acem.ac.in/" class="a-normal" target="_blank">
+                <div class="social-link">
+                    <img src="/icons/website.png" alt="email icon">
+                    <p>www.acem.ac.in</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <hr class="thin-line">
+    <section class="footer" id="footer">
+        <a href="#footer" class="a-normal">
+            <p>Copyrights © 2023</p>
+        </a>
+    </section>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
